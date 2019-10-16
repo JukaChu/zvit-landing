@@ -1,0 +1,58 @@
+.progress-bar {
+    margin-top: 57px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.progress-bar__simple-point {
+    width: 20%;
+    height: 1px;
+    background: var(--progress-bar-color);
+    position: relative;
+}
+
+.progress-bar__simple-point:first-child {
+    background: var(--green-color);
+}
+
+.progress-bar__simple-point::before {
+    content: '';
+    border: 1px solid var(--progress-bar-point);
+    background-color: var(--progress-bar-point);
+
+    border-radius: 100%;
+    position: absolute;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    margin-top: -8px;
+    box-sizing: border-box;
+}
+
+.progress-bar__simple-point:last-child::after {
+    content: '';
+    border: 1px solid var(--progress-bar-point);
+    border-radius: 100%;
+    background-color: var(--progress-bar-point);
+    position: absolute;
+    right: 0;
+    width: 16px;
+    height: 16px;
+    margin-top: -8px;
+    box-sizing: border-box;
+}
+
+.progress-bar__simple-point:first-child::before {
+    width: 24px;
+    height: 24px;
+    margin-top: -12px;
+    border-color: var(--green-color);
+    background: var(--white-color) url("../../img/pass.svg") center no-repeat;
+}
+
+.progress-bar__simple-point:nth-child(2)::before {
+    width: 24px;
+    height: 24px;
+    margin-top: -12px;
+    background: var(--white-color);
+}

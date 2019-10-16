@@ -1,0 +1,20 @@
+.header {
+    background: var(--left-side-background-color);
+    min-height: 100vh;
+    width: 476px;
+    position: sticky;
+    top: 0;
+}
+
+.header__container {
+    margin: 0 auto;
+    max-width: calc(100% - 72px);
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__bottom-side {
+    margin-top: 106px;
+}
+

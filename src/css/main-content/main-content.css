@@ -1,0 +1,13 @@
+.main-content {
+    background: var(--white-color);
+    flex-grow: 1;
+}
+
+.main-content__container {
+    margin: 0 auto;
+    width: 90%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+

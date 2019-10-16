@@ -1,0 +1,91 @@
+.navigation-point {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+.navigation-point__simple-point {
+    font-family: var(--main-font);
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--second-font-color);
+    margin: 0;
+}
+
+.navigation-point__simple-point--active {
+    color: var(--white-color);
+    font-weight: 500;
+}
+
+.navigation-point__dot {
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    background: var(--non-active);
+}
+
+
+.navigation-point__dot--active {
+    background: var(--white-color);
+}
+
+.navigation-point--hidden {
+    visibility: hidden;
+}
+
+
+@keyframes pointMoves {
+    0% {
+
+    }
+    100% {
+
+        transform: translateY(-116px);
+    }
+}
+
+@keyframes textMoves {
+    0% {
+
+    }
+    100% {
+        transform: translateX(40px);
+    }
+}
+
+@keyframes textMovesReverse {
+    0% {
+        transform: translateX(40px);
+    }
+    100% {
+
+    }
+}
+
+.navigation-point--before::before {
+    content: url("../../img/arrow-left.svg");
+    position: absolute;
+    align-items: center;
+    top: 25%;
+}
+
+.navigation-point--checked {
+    animation: 1s ease-in-out 1 forwards pointMoves;
+}
+
+@keyframes pointMovesBack {
+    0% {
+        transform: translateY(-116px);
+    }
+    100% {
+
+
+    }
+}
+
+.navigation-point--reverse-animation {
+    animation: 1s ease-in-out 1 forwards pointMovesBack;
+}

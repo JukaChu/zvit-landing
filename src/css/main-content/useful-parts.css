@@ -1,0 +1,138 @@
+.useful-parts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.useful-parts__menu {
+    margin: 0;
+    width: 771px;
+    height: 771px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    list-style: none;
+    border: 27px solid;
+    border-radius: 100%;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 40px rgba(222, 231, 240, 0.35)
+}
+
+.useful-parts__info-block {
+    position: absolute;
+    top: 21%;
+    left: 24%;
+    width: 450px;
+    height: 450px;
+    border: 0 solid transparent;
+    border-radius: 100%;
+    background: white;
+}
+
+.useful-parts__simple-part {
+    position: absolute;
+    width: 361px;
+    height: 361px;
+    left: -10px;
+    top: -10px;
+    transform-origin: 100% 100%;
+    overflow: hidden;
+    border: 1px solid black;
+    background: var(--triangles-hover);
+}
+
+.useful-parts__simple-part:hover {
+    background: var(--triangles-hover-opacity);
+}
+
+.useful-parts__simple-part:active {
+    background: var(--green-color-opacity);
+}
+
+.useful-parts__simple-part div {
+    width: 361px;
+    height: 361px;
+    margin-top: 11px;
+    margin-left: 60px;
+    display: block;
+    transform: skew(-45deg);
+}
+
+.useful-parts__simple-part div img {
+    width: 57px;
+    top: 58%;
+    left: 48%;
+    position: absolute;
+}
+
+.useful-parts--heart {
+    transform: rotate(90deg) skew(45deg);
+}
+
+.useful-parts--heart img {
+    transform: rotate(-90deg);
+}
+
+.useful-parts--knowledge {
+    transform: rotate(135deg) skew(45deg);
+}
+
+.useful-parts--knowledge img {
+    transform: rotate(-135deg);
+}
+
+.useful-parts--home {
+    transform: rotate(180deg) skew(45deg);
+}
+
+
+.useful-parts--home img {
+    transform: rotate(-180deg);
+}
+
+.useful-parts--percent {
+    transform: rotate(225deg) skew(45deg);
+}
+
+.useful-parts--percent img {
+    transform: rotate(-225deg);
+}
+
+.useful-parts--key {
+    transform: rotate(270deg) skew(45deg);
+}
+
+
+.useful-parts--key img {
+    transform: rotate(-270deg);
+}
+
+.useful-parts--co2 {
+    transform: rotate(315deg) skew(45deg);
+}
+
+
+.useful-parts--co2 img {
+    transform: rotate(-315deg);
+}
+
+.useful-parts--shield {
+    transform: rotate(360deg) skew(45deg);
+}
+
+
+.useful-parts--shield img {
+    transform: rotate(-360deg);
+}
+
+.useful-parts--baby {
+    transform: rotate(405deg) skew(45deg);
+
+}
+
+
+.useful-parts--baby img {
+    transform: rotate(-45deg);
+}

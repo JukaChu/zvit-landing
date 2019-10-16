@@ -1,0 +1,20 @@
+.navigation-block {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 52px;
+}
+
+.navigation-block__article {
+    margin: 0 0 0 70px;
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--black-color);
+    opacity: 0.4;
+}
+
+.navigation-block__article:first-child {
+    opacity: 1;
+}

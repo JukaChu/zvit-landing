@@ -1,0 +1,22 @@
+@import './header/header.css';
+@import './variables.css';
+@import './main-content/main-content.css';
+@import './header/main-page-link.css';
+@import './header/navigation-point.css';
+@import './header/declaration.css';
+@import './main-content/navigation-block.css';
+@import './main-content/progress-bar.css';
+@import './main-content/useful-parts.css';
+
+body {
+    margin: 0 auto;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    max-width: 1440px;
+}
+
+
+

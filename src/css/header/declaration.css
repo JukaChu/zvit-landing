@@ -1,0 +1,94 @@
+.declaration {
+    margin-top: -116px;
+
+}
+
+.declaration__article {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    margin-bottom: 37px;
+    height: 25px;
+    align-items: center;
+}
+
+.declaration__paragraph {
+    margin: 0;
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.declaration__paragraph--0,
+.declaration__paragraph--1 {
+    color: var(--green-color);
+}
+
+.declaration__paragraph--2 {
+    color: var(--red-color);
+}
+
+.declaration__paragraph--3 {
+    font-weight: 500;
+    color: var(--white-color);
+}
+
+.declaration__paragraph--4 {
+    color: var(--second-font-color);
+}
+
+.declaration__paragraph::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    border: 1px solid;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    align-self: center;
+    box-sizing: border-box;
+}
+
+.declaration__paragraph--0::before,
+.declaration__paragraph--1::before {
+    background: url("../../img/pass.svg") center no-repeat;
+    width: 25px;
+    height: 25px;
+    margin-right: -4px;
+}
+
+.declaration__paragraph--2::before {
+    background: url("../../img/negative.svg") center no-repeat;
+    width: 25px;
+    height: 25px;
+    margin-right: -5px;
+}
+.declaration__paragraph--3::before {
+    background: var(--white-color);
+}
+.declaration__paragraph--4::before{
+    background: var(--second-font-color);
+
+}
+
+.declaration__create-declaration {
+    border: 1px solid var(--green-color);
+    box-sizing: border-box;
+    border-radius: 8px;
+    width: 100%;
+    height: 48px;
+    background: transparent;
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--green-color);
+    outline: transparent;
+    cursor: pointer;
+}
+
