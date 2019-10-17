@@ -16,7 +16,7 @@
 }
 
 .progress-bar__simple-point::before {
-    content: '';
+    content: "";
     border: 1px solid var(--progress-bar-point);
     background-color: var(--progress-bar-point);
 
@@ -30,7 +30,7 @@
 }
 
 .progress-bar__simple-point:last-child::after {
-    content: '';
+    content: "";
     border: 1px solid var(--progress-bar-point);
     border-radius: 100%;
     background-color: var(--progress-bar-point);

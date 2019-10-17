@@ -12,9 +12,10 @@
     height: inherit;
     display: flex;
     flex-direction: column;
+    position: sticky;
+    top: 0;
 }
 
 .header__bottom-side {
     margin-top: 106px;
 }
-

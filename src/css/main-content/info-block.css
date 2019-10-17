@@ -1,0 +1,24 @@
+.info-block__title {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+    color: var(--black-color);
+}
+
+.info-block__subtitle {
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: var(--font-color-circle);
+    max-width: 386px;
+}
+
+.info-block__subtitle--green {
+    color: var(--green-color);
+    font-weight: 500;
+}

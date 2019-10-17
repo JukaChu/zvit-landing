@@ -5,7 +5,6 @@
     margin-bottom: 30px;
 }
 
-
 .navigation-point__simple-point {
     font-family: var(--main-font);
     font-weight: normal;
@@ -27,7 +26,6 @@
     background: var(--non-active);
 }
 
-
 .navigation-point__dot--active {
     background: var(--white-color);
 }
@@ -36,20 +34,16 @@
     visibility: hidden;
 }
 
-
 @keyframes pointMoves {
     0% {
-
     }
     100% {
-
         transform: translateY(-116px);
     }
 }
 
 @keyframes textMoves {
     0% {
-
     }
     100% {
         transform: translateX(40px);
@@ -61,7 +55,6 @@
         transform: translateX(40px);
     }
     100% {
-
     }
 }
 
@@ -81,8 +74,6 @@
         transform: translateY(-116px);
     }
     100% {
-
-
     }
 }
 

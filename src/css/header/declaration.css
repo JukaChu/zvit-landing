@@ -1,6 +1,5 @@
 .declaration {
     margin-top: -116px;
-
 }
 
 .declaration__article {
@@ -40,7 +39,7 @@
 }
 
 .declaration__paragraph::before {
-    content: '';
+    content: "";
     position: absolute;
     right: 0;
     border: 1px solid;
@@ -68,9 +67,8 @@
 .declaration__paragraph--3::before {
     background: var(--white-color);
 }
-.declaration__paragraph--4::before{
+.declaration__paragraph--4::before {
     background: var(--second-font-color);
-
 }
 
 .declaration__create-declaration {
@@ -91,4 +89,3 @@
     outline: transparent;
     cursor: pointer;
 }
-

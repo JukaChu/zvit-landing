@@ -1,17 +1,19 @@
 html {
-    --left-side-background-color: #1E2A36;
-    --main-background-color: #E5E5E5;
-    --white-color: #FFFFFF;
+    --left-side-background-color: #1e2a36;
+    --main-background-color: #e5e5e5;
+    --white-color: #ffffff;
     --black-color: #000000;
-    --main-font: 'Roboto', sans-serif;
-    --second-font-color: #BCBFC3;
+    --main-font: "Roboto", sans-serif;
+    --second-font-color: #bcbfc3;
     --non-active: #111921;
-    --green-color: #4CA34C;
-    --green-color-opacity: rgba(76,163,76, 0.8);
-    --red-color: #DE4D3B;
-    --progress-bar-color: #C4D1E1;
-    --progress-bar-point: #E3EAFF;
-    --white-color-opacity: rgba(255,255,255, 0.3);
-    --triangles-hover: #F1F5F9;
-    --triangles-hover-opacity: #EBF0F5;
+    --green-color: #4ca34c;
+    --green-color-opacity: rgba(76, 163, 76, 0.8);
+    --red-color: #de4d3b;
+    --progress-bar-color: #c4d1e1;
+    --progress-bar-point: #e3eaff;
+    --white-color-opacity: rgba(255, 255, 255, 0.3);
+    --triangles-hover: #f1f5f9;
+    --triangles-hover-opacity: #ebf0f5;
+    --font-color-circle: #6e7177;
+    --color-img: #707c87;
 }
